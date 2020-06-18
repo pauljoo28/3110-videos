@@ -1,0 +1,15 @@
+### Starting build.
+Backtrace:
+                      - Failed to build the target stack.cmo
+                          - Building stack.cmo:
+                              - Failed to build all of these:
+                                  - Building stack.ml:
+                                      - Failed to build all of these:
+                                          - Building stack.mly
+                                          - Building stack.mll
+                                  - Building stack.mli:
+                                      - Building stack.mly
+                                  - Building stack.mlpack
+                                  - Building stack.mli:
+                                      - Building stack.mly
+# Compilation unsuccessful.

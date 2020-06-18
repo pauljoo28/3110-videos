@@ -1,0 +1,5 @@
+"Rule: ocaml: mli -> cmi (%=stack )": "\177O7\r\224C\017P\175\026\164\159:\142\011!"
+"Resource: /Users/pauljoo/Documents/3110/ch5/stack.ml": "\2060\021\022\164\155\154t\214\006B\139\167i]\211"
+"Rule: ocaml dependencies ml (%=stack )": "+V\146^\221\006\012y\233T\n\031\253\207\026&"
+"Resource: /Users/pauljoo/Documents/3110/ch5/stack.mli": "vi\236ZC\239a'\187\\&\137\201\183q\213"
+"Rule: ocaml dependencies mli (%=stack )": "\007v\249\188\015\129\206\168\240\160\197{,O\133I"
