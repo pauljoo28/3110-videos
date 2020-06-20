@@ -16,7 +16,7 @@ module Child = struct
 end
 
 
-module ChildOne = struct
+module Child = struct
   
   include Parent
 
@@ -24,7 +24,7 @@ module ChildOne = struct
 
 end
 
-module ChildTwo = struct
+module Child = struct
   
   let a = Parent.a
   let b = Parent.b

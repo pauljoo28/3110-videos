@@ -1,4 +1,3 @@
-(* Stack implementation *)
 module type Stack = sig
 
   type stack
@@ -31,22 +30,9 @@ module ListStack : Stack = struct
     | [] -> failwith "Empty"
     | _ :: xs -> xs
 
-end
-
-(* Stack with sum function *)
-module type StackwSum = sig
-
-  include Stack
-
-  val sum : stack -> int
+  let hello = 2
 
 end
 
 
-module ListStackwSum : StackwSum = struct
 
-  include ListStack
-
-  let sum s = List.fold_left (+) 0 s
-
-end

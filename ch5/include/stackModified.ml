@@ -44,12 +44,23 @@ module type StackwSum = sig
 
 end
 
+(* Stack with sum function *)
+module type StackwSum = sig
+
+  include Stack
+
+  val sum : stack -> int
+
+end
+
 
 module ListStackwSum : StackwSum = struct
 
   include ListStackImpl
 
   let sum s = List.fold_left (+) 0 s
+
+  let hello = 2
 
 end
 

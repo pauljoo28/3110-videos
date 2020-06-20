@@ -1,19 +1,4 @@
-module type Stack = sig
-
-  type stack
-
-  val empty : stack
-  val is_empty : stack -> bool
-
-  val push : int -> stack -> stack
-
-  val peek : stack -> int
-
-  val pop : stack -> stack
-
-end
-
-module ListStack : Stack = struct
+module ListStack = struct
 
   type stack = int list
 
